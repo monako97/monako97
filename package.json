@@ -1,13 +1,15 @@
 {
   "name": "react-hooks-toast",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "",
   "main": "lib/index.js",
   "files": [
     "lib",
     "fonts",
     "style",
-    "README.md"
+    "README.md",
+    "LICENSE",
+    "1.gif"
   ],
   "repository": {
     "type": "git",

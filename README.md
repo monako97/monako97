@@ -1,12 +1,16 @@
 # react-hooks-toast
+![如图](./1.gif)
 #### 使用方法：
 ```javascript
-Toast.info("Info", 2000, callback);
-Toast.success("操作成功", 2000, callback);
-Toast.danger("发送错误", 2000, callback);
-Toast.loading("Loading", 2000, callback);
-Toast.warning("警告", 2000, callback);
-Toast.primary("OK", 2000, callback);
+import Toast from "react-hooks-toast";
+
+
+Toast.info("Info", 2000, true);
+Toast.success("操作成功", 2000);
+Toast.danger("发送错误", 2000);
+Toast.loading("Loading", 2000);
+Toast.warning("警告", 2000);
+Toast.primary("OK", 2000);
 ```
 #### webpack配置：
 ```
