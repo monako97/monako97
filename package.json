@@ -1,0 +1,60 @@
+{
+  "name": "react-hooks-toast",
+  "version": "1.0.14",
+  "description": "",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "fonts",
+    "style",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monako97/react-hooks-toast.git"
+  },
+  "homepage": "https://github.com/monako97",
+  "author": "Monako <monako.club.com>",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "lib": "babel src --out-dir lib"
+  },
+  "keywords": [
+    "toast",
+    "react-hooks-toast"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.8.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-transition-group": "^4.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "latest",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "autoprefixer": "^9.7.4",
+    "babel-loader": "^8.1.0",
+    "url-loader": "^1.1.2",
+    "css-loader": "^3.4.2",
+    "cssnano": "^4.1.10",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "postcss-flexbugs-fixes": "^4.2.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "file-loader": "^5.1.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "core-js": "^3.6.4",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
+}
