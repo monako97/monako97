@@ -25,6 +25,7 @@
   font-family: "react-toast-icon", serif;
   font-size: 16px;
   font-style: normal;
+  margin-right: 5px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
